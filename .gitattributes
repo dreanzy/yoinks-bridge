@@ -1,0 +1,15 @@
+# Windows 批处理和脚本必须保持 CRLF：.vbs 用 LF 换行会直接解析失败，
+# .cmd 在某些写法下也会出问题。写死 eol，不依赖各自的 core.autocrlf 设置。
+*.cmd text eol=crlf
+*.vbs text eol=crlf
+
+# 其余文本按 LF 存库
+*.mjs text eol=lf
+*.js text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+
+# 图片等二进制不做换行转换
+*.png binary
+*.jpg binary
+*.ico binary

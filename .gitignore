@@ -1,0 +1,17 @@
+# 运行日志（handler.mjs 默认写到 %TEMP%，这里防止有人改了路径后误提交）
+*.log
+
+# 临时文件与备份
+*.tmp
+*.bak
+
+# 编辑器
+.vscode/
+.idea/
+
+# Windows 杂物
+Thumbs.db
+desktop.ini
+
+# 以后要是加了 package.json
+node_modules/
