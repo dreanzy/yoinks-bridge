@@ -13,5 +13,20 @@
 Thumbs.db
 desktop.ini
 
-# 以后要是加了 package.json
+# AI Agent
+AGENTS.md
+**/.agents/
+**/.pi/
+
+# CodeGraph
+**/.codegraph/
+
+# Graphify
+**/graphify-out/
+
+# NPM
 node_modules/
+
+# Temp
+tmp/
+temp/
